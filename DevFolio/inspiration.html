@@ -1,0 +1,43 @@
+<!-- 
+Name: Fayz Reshid
+Due Date: March 5,2023
+Section: CST 8285 Sec 313
+Lab: Lab 4
+File: inspiration.html
+Lab objective: Creating a dynamic content using JavaScript.
+-->
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="author" content="Fayz Reshid">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name=" description " content=" Lab 4">
+  <meta name=" keywords " content=" inspirational,quotes,motivational">
+  <title>inspirational</title>
+  <link rel="stylesheet" type="text/css" href="assets/css/inspiration.css">
+  <script src="assets/js/inspiration.js" defer></script>
+</head>
+
+<body>
+  <header>
+    <h1>Inspirational Quotes</h1>
+  </header>
+  <div id="quote-container">
+    <div id="quote-text"></div>
+    <div id="quote-author"></div>
+  </div>
+  <div class="atr">
+    <button id="quote-button" class="atr">Get Quote</button>
+  </div>
+
+  <script>
+    window.addEventListener('load', function () {
+      setInspiration();
+    });
+  </script>
+
+</body>
+
+</html>

@@ -1,0 +1,74 @@
+/*
+Name: Fayz Reshid
+Due Date: March 05,2023
+Section: CST 8285 Sec 313
+Lab: Lab 4
+File: inspiration.css
+Lab objective: Creating a dynamic content using JavaScript.
+*/
+body {
+  font-family: Georgia, serif;
+  font-size: 16px;
+  line-height: 1.5;
+  background-color: #ff5e6c;
+}
+
+
+header {
+  text-align: left;
+  margin-bottom: 2em;
+}
+
+
+#quote-container {
+  border: 1px solid #cccccc;
+  border-radius: 15pt;
+  padding: 2em;
+  margin-bottom: 2em;
+  background-color: rgb(244, 244, 21);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+
+#quote-text {
+  font-family: Georgia, serif;
+  color: #000;
+  font-size: 24px;
+  font-style: italic;
+  margin-bottom: 0.5em;
+}
+
+
+#quote-author {
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  font-size: 18px;
+  font-style: italic;
+  text-align: right;
+  font-weight: bold;
+}
+
+
+#quote-button {
+  font-family: Arial, sans-serif;
+  font-size: 16px;
+  font-weight: bold;
+  text-align: center;
+  background-color: black;
+  text-shadow: 0 0 3px #FF0000;
+  color: #fff;
+  padding: 0.5em 1em;
+  border: none;
+  border-radius: 15px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+#quote-button:hover {
+  background-color: #5a2975;
+}
+
+.atr {
+  text-align: center;
+}
