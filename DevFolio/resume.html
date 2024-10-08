@@ -1,22 +1,14 @@
-<!-- 
-Name: Fayz Reshid
-Due Date: March 12,2023
-Section: CST 8285 Sec 313
-Lab: Lab Assignment 1
-File: index.html
-Lab objective: Building a peronal portfolio.
- -->
 <!DOCTYPE html>
 <html lang="en">
 
 <head>
   <meta charset="utf-8">
   <meta content="width=device-width, initial-scale=1.0" name="viewport">
-  <meta name="author" content="Fayz Reshid">
-  <meta name=" keywords " content=" portfolio,fayz reshid,">
-  <meta name=" description " content=" Assignment 1">
 
-  <title>Fayz's Resume</title>
+  <title>Resume - Kelly Bootstrap Template</title>
+  <meta content="" name="description">
+  <meta content="" name="keywords">
+  <link rel="stylesheet" href="assets/css/Resume.css">
 
   <!-- Favicons -->
   <link href="assets/img/favicon.png" rel="icon">
@@ -24,16 +16,19 @@ Lab objective: Building a peronal portfolio.
 
   <!-- Google Fonts -->
   <link
-    href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i+Raleway:300,300i,400,400i,500,500i,600,600i,700,700i_Poppins:300,300i,400,400i,500,500i,600,600i,700,700i"
+    href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i|Raleway:300,300i,400,400i,500,500i,600,600i,700,700i|Poppins:300,300i,400,400i,500,500i,600,600i,700,700i"
     rel="stylesheet">
 
   <!-- Vendor CSS Files -->
+  <link href="assets/vendor/aos/aos.css" rel="stylesheet">
   <link href="assets/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
   <link href="assets/vendor/bootstrap-icons/bootstrap-icons.css" rel="stylesheet">
+  <link href="assets/vendor/boxicons/css/boxicons.min.css" rel="stylesheet">
+  <link href="assets/vendor/glightbox/css/glightbox.min.css" rel="stylesheet">
+  <link href="assets/vendor/swiper/swiper-bundle.min.css" rel="stylesheet">
 
   <!-- Template Main CSS File -->
   <link href="assets/css/style.css" rel="stylesheet">
-
 
   <!-- =======================================================
   * Template Name: Kelly - v4.10.0
@@ -47,25 +42,24 @@ Lab objective: Building a peronal portfolio.
 
   <!-- ======= Header ======= -->
   <header id="header" class="fixed-top">
-    <div class="container d-flex align-items-center justify-content-between">
+    <div class="container-fluid d-flex justify-content-between align-items-center">
 
-      <h1 class="logo"><a href="index.html">Faiz</a></h1>
+      <h1 class="logo me-auto me-lg-0"><a href="index.html">Faiz</a></h1>
       <!-- Uncomment below if you prefer to use an image logo -->
       <!-- <a href="index.html" class="logo"><img src="assets/img/logo.png" alt="" class="img-fluid"></a>-->
 
-      <nav id="navbar" class="navbar">
+      <nav id="navbar" class="navbar order-last order-lg-0">
         <ul>
-          <li><a class="nav-link scrollto" href="index.html">Home</a></li>
-          <li><a class="nav-link scrollto" href="Resume.html">Resume</a></li>
-          <li><a class="nav-link scrollto" href="Courses.html">Courses</a></li>
+          <li><a href="index.html">Home</a></li>
+          <li><a class="active" href="resume.html">Resume</a></li>
+          <li><a href="courses.html">Courses</a></li>
         </ul>
-
         <i class="bi bi-list mobile-nav-toggle"></i>
       </nav><!-- .navbar -->
 
     </div>
-  </header><!-- End Header -->
 
+  </header><!-- End Header -->
 
   <main id="main">
 
@@ -73,38 +67,47 @@ Lab objective: Building a peronal portfolio.
     <section id="resume" class="resume">
       <div class="container" data-aos="fade-up">
 
+        <div class="section-title">
+          <h2>Fayz's Resume</h2>
+          <p>.</p>
+        </div>
 
         <div class="row">
           <div class="col-lg-6">
+            <h3 class="resume-title">Summary</h3>
             <div class="resume-item pb-0">
-              <h4>Summary</h4>
+              <h4>Fayz Reshid</h4>
               <p><em>To leverage my current programming knowledge and expand my skillset through hands-on experience and
                   mentorship in a challenging environment. Seeking opportunities to work with experienced programmers
                   and engage in ongoing learning to further develop my abilities and contribute to the success of a
                   dynamic organization.</em></p>
-
+              <p>
+              <ul>
+                <li>188-B Woodridge Crescent,Ottawa,ON </li>
+                <li>(613) 456-7891</li>
+                <li>fayzreshid@gmail.com</li>
+              </ul>
+              </p>
             </div>
 
             <h3 class="resume-title">Education</h3>
             <div class="resume-item">
               <h4>Advanced College Diploma in Computer Programming</h4>
-              <h5>2022-present</h5>
+              <h5>Sep 2022 - August 2024</h5>
               <p><em>Algonquin College, Ottawa, ON</em></p>
               <ul>
-                <li>Dean's List Honoree Fall Semester, 2022</li>
-                <li>3.86 GPA</li>
-              </ul>
+                <li>Dean's Honor List</li>
+                <li>Graduated with Honors, GPA: 3.89</li>
             </div>
 
-            <h3 class="resume-title">Skills</h3>
+            <h3 class="resume-title">Soft Skills</h3>
             <div class="resume-item">
               <ul>
-                <li>Excellent Communication</li>
-                <li>Critical Thinker</li>
-                <li>Teamwork and collaboration</li>
-                <li>Product Recommendations</li>
-                <li>Product Scanning</li>
-                <li>Willingness to Learn </li>
+                <li> Languages- English (Native), Arabic (Native), French (Elementary Proficiency). </li>
+                <li> Competent at troubleshooting and swiftly resolving software-related issues.</li>
+                <li> Detail Orientated.</li>
+                <li> Teamwork and Collaboration.</li>
+
               </ul>
             </div>
 
@@ -112,10 +115,10 @@ Lab objective: Building a peronal portfolio.
             <div class="resume-item">
               <p>Comfortable with the following programming languages/Operating systems:</p>
               <ul>
-                <li>Java 8</li>
-                <li>PHP,HTML5,CSS,JavaScript</li>
+                <li>Java,SQL,Python,HTML5,CSS,JavaScript</li>
+                <li>Angular, Node.js</li>
                 <li>GNU/Linux</li>
-                <li>PostgreSQL,ORDBMS,MySQL,Microsoft SQL Server</li>
+                <li>MySQL,MongoDB,Oracle,PostgreSQL</li>
               </ul>
             </div>
 
@@ -123,46 +126,54 @@ Lab objective: Building a peronal portfolio.
           <div class="col-lg-6">
             <h3 class="resume-title">Work Experience</h3>
             <div class="resume-item">
-              <h4>Grocery Clerk</h4>
+              <h4>Student IT Developer | Canada Revenue Agency (CRA) </h4>
               <h5> January 2021 - August 2022</h5>
-              <p><em>Ottawa,ON </em></p>
+              <p><em>SR&ED Self-Assessment and Learning Tool (SALT)</em></p>
+              <p>
               <ul>
-                <li>Examined grocery products to immediately remove from stock expired or spoiled items, adhering to
-                  "first in, first out" rule.</li>
-                <li>Maintained and organized store displays to enhance product visibility and expedite product location
-                  activities.</li>
-                <li>Worked in a team daily to stock, arrange, and fully face 100's of grocery products every day.</li>
-                <li>Discarded all expired items according to company policy and place near expiry ones on special
-                  promotions.</li>
-                <li>Leveraged lift equipment to pull items from stock and add shelves and bins.</li>
-                <li>Received and unloaded new products upon delivery, checking for damage and order accuracy.</li>
+                <li>o Developed and implemented complex financial calculations for the CRA’s Scientific Research and
+                  Experimental
+                  Development (SR&ED) tax credit system, streamlining the process for calculating shareholder salaries
+                  and wages based
+                  on Yearly Maximum Pensionable Earnings (YMPE).</li>
+                <li>Optimized and applied proxy methods for financial caps, including advanced logic to limit salaries
+                  to 5 times the
+                  annual YMPE, and calculated proportional values based on days employed.</li>
+                <li>Collaborated with cross-functional teams to ensure accurate calculations for regular employees and
+                  shareholders
+                  while maintaining usability and compliance with federal tax guidelines.</li>
+                <li>Utilized Angular, TypeScript, and RxJS for dynamic UI components and RESTful API integration to
+                  manage user data and
+                  tax year parameters.</li>
+                <li>Integrated real-time data binding using observables to update calculations based on user input
+                  across multiple
+                  components.</li>
+                <li>Conducted rigorous testing and debugging to resolve calculation errors and improve overall system
+                  reliability.
+                </li>
               </ul>
+              </p>
             </div>
             <div class="resume-item">
-              <h4>Warehouse Worker</h4>
-              <h5> January 2018 - March 2019</h5>
-              <p><em>Jeddah, Saudi Arabia</em></p>
+              <p><em>Webform Factory</em></p>
+              <p>
               <ul>
-                <li>Used pallet jacks to move items to and from warehouse locations.</li>
-                <li>Recognized defective material and reported issues to management.</li>
-                <li>Counted and stocked different types of merchandise to comply with inventory control tag
-                  requirements.</li>
-                <li>Generated warehouse shipping documents, packing lists and invoices.</li>
-                <li>Examined packages and goods for damage and notified vendors of replacement needs.</li>
-                <li>Applied schedule, organizational and routing knowledge to enhance delivery planning.</li>
+                <li>Helped in developing a reusable Angular template/library ("Webform Factory") for the CRA, designed
+                  to streamline the development of form components across multiple upcoming projects.</li>
+                <li>Implemented form validation, dropdowns, and button components using Angular Reactive Forms and
+                  NgModules, ensuring consistent user experience and accessibility.</li>
+                <li>Collaborated with cross-functional teams to deliver modular components (e.g., form controls,
+                  dropdowns, buttons) that can be easily integrated into various CRA applications.</li>
+                <li>Wrote unit tests using Jasmine/Karma to ensure robustness and reliability of the form components,
+                  achieving 92% code coverage.</li>
+                <li>Leveraged internationalization and localization support using ngx-translate, ensuring accessibility
+                  in both official languages (English and French).</li>
+                <li>Integrated custom validation rules and error messages for a variety of input fields (e.g., address,
+                  phone number), improving the accuracy of data collected from users.</li>
+                <li>Actively contributed to code reviews and maintained best practices for component design and code
+                  reusability within the Angular framework.</li>
               </ul>
-            </div>
-            <h3 class="resume-title">SomePersonal Projects</h3>
-            <div class="resume-item">
-              <a href="inspiration.html" target="_blank" title="Inspirational Quotes Generator webpage"> Inspirational
-                Quotes random generator
-                <img src="assets/img/inspiration_generator.png"
-                  alt="A thumbnail showing an Inspirational Quotes generator">
-              </a>
-              <a href="indexs.html" target="_blank" title="Snake Game"> Snake Game
-                <img src="assets/img/snake_game.png"
-                  alt="A thumbnail showing an image of a green Snake and a pink button">
-              </a>
+              </p>
             </div>
           </div>
         </div>
